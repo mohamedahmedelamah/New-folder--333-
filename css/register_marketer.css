@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap);
+option,
+select {
+  width: 400px;
+}
+form button,
+label {
+  white-space: nowrap;
+}
+.far,
+form p {
+  text-align: center;
+}
+.container,
+.far,
+form button {
+  cursor: pointer;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tajawal, sans-serif;
+}
+.aaa {
+  white-space: wrap;
+}
+a {
+  text-decoration: none;
+}
+body {
+  overflow: hidden !important;
+}
+.checkbox label:first-of-type {
+  margin-left: 4rem;
+}
+.container {
+  position: relative;
+  font-size: 18px;
+  direction: ltr;
+  color: #094689 !important;
+}
+.checkmark,
+.checkmark:after,
+.container input,
+.far,
+.logoo,
+.positionn p {
+  position: absolute;
+}
+.container input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  top: 6px;
+  left: -1.5rem;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #f9a51a;
+}
+.input,
+select {
+  outline: 0;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+  height: 43px;
+}
+.login,
+form button {
+  position: absolute;
+  left: 50%;
+}
+.container input:checked ~ .checkmark {
+  background-color: #fff;
+  color: #f9a51a;
+}
+.checkmark:after {
+  content: "";
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 4px;
+  top: -1px;
+  width: 4px;
+  height: 9px;
+  border: solid #f9a51a;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.logoo {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  width: 186px;
+  height: 56px;
+}
+.logoo img {
+  max-width: 100%;
+}
+.image {
+  width: 500px;
+}
+.image img {
+  width: 100%;
+  height: 100vh;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  overflow: hidden !important;
+}
+.login form,
+.parent-far,
+.positionn {
+  position: relative;
+}
+.imagee {
+  width: 700px;
+  margin-left: 5rem;
+}
+.input,
+.width {
+  width: 100%;
+}
+.imagee img {
+  max-width: 100%;
+}
+.login form {
+  text-align: right;
+  width: 80%;
+  gap: 1.5rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+.login form h2 {
+  color: #f9a51a;
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.che,
+.first-name {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: 1px solid #bbb8b8;
+  border-radius: 7px;
+}
+.parent-inputt {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 1.1rem 0;
+  gap: 2rem;
+}
+@media screen and (max-width:666px){
+  .parent-inputt {
+    margin: 1rem 0;
+    gap: 0.5rem;
+  }
+}
+form button {
+  background: #f9a51a;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 8rem;
+  font-size: 1rem;
+  width: fit-content;
+  margin: 1rem auto;
+  border-radius: 7px;
+  transform: translateX(-50%);
+}
+form p {
+  margin-top: 4.5rem;
+}
+.login form label,
+form p a {
+  color: #f9a51a;
+}
+.type {
+  margin-top: -0.5rem;
+}
+.far {
+  left: -5px;
+  bottom: 0;
+  padding: 15px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  font-size: 0.9rem;
+  color: #000;
+}
+@media screen and (max-width: 1280px) {
+  .imagee {
+    width: 700px;
+    margin-left: 8rem;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .login {
+    width: 85%;
+  }
+  .image {
+    width: 400px;
+  }
+  .image img {
+    width: 100%;
+    height: 100vh;
+  }
+  .imagee {
+    width: 700px;
+    margin-left: 4rem;
+  }
+  .imagee img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .login {
+    width: 94%;
+  }
+  .image {
+    width: 350px;
+  }
+  .image img {
+    width: 100%;
+    height: 100vh;
+  }
+  .imagee {
+    width: 700px;
+    margin-left: 4rem;
+  }
+  .imagee img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .logoo {
+    right: 1rem;
+  }
+  .login {
+    width: 95%;
+  }
+  .image {
+    width: 300px;
+  }
+  .image img {
+    width: 100%;
+    height: 100vh;
+  }
+  .imagee {
+    width: 600px;
+    margin-left: 4rem;
+  }
+  .imagee img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logoo {
+    right: 1rem;
+  }
+  .login form button {
+    padding: 0.5rem 3.5rem;
+  }
+  .image {
+    width: 250px;
+  }
+  .imagee {
+    width: 550px;
+    margin-left: 3rem;
+  }
+  .imagee img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image,
+  .imagee {
+    display: none;
+  }
+  form {
+    width: 100%;
+  }
+  .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login form {
+    width: fit-content;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logoo {
+    position: absolute;
+    right: 0.2rem;
+    top: 1rem;
+  }
+  .logoo img {
+    max-width: 90%;
+  }
+  form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logoo {
+    position: absolute;
+    right: 0.2rem;
+    top: 1rem;
+  }
+  .logoo img {
+    max-width: 90%;
+  }
+  form {
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+  }
+  .login form {
+    margin-top: 3rem;
+  }
+  .aa {
+    text-align: center;
+    margin: 1rem auto auto;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 470px) {
+  .login form {
+    width: fit-content;
+    margin: auto;
+  }
+  .checkmark {
+    left: -1.4rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .checkbox label:first-of-type {
+    margin-left: 2rem;
+  }
+  .checkmark {
+    left: -1.2rem;
+  }
+}
+input {
+  width: 100% !important;
+}
+.positionn p {
+  top: -30px;
+  left: 5px;
+  border-right: 1px solid #bbb8b8;
+  padding-right: 5px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+select {
+  border: 1px solid #bbb8b8;
+  border-radius: 7px;
+}
+@media screen and (max-width: 332px) {
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+  }
+}

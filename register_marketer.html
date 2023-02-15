@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Register now as a marketer</title>
+                   <!-- link register_marketer css -->
+    <link rel="stylesheet" href="./css/register_marketer.css" />
+                   <!-- link js (show and hidden password)-->
+    <script defer="defer" src="./js/login.js"></script>
+                   <!-- link js (e.preventDefault()) -->
+    <script defer="defer" src="./js/register.js"></script>
+         <!-- link font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+                   <!-- link icon the website -->
+    <link rel="icon" type="image/x-icon" href="/images/iconn.png" />
+  </head>
+  <body>
+ 
+                  <!-- logo (Ma5zon) -->
+    <a class="logoo" href="/"
+      ><img src="./images/Group 1000011353 (1).png" alt=""
+    /></a>
+                  <!-- backGround (left section) -->
+    <div class="image"><img src="/images/Rectangle 2415.png" alt="" /></div>
+
+                    <!-- form Register as a marketer-->
+    <div class="login">
+
+      <div class="imagee">
+        <img src="/images/Group 1000011330.png" alt="" />
+      </div>
+                    <!-- form -->
+      <form action="">
+        <h2>إنشاء حساب</h2>
+
+                  <!-- checkbox -->
+        <div class="checkbox">
+          <label class="container">
+            التسجيل كمسوق <input type="checkbox" checked="checked"/>
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container">
+            التسجيل كمورد <input type="checkboxx" checked="checked"/>
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+
+        <div class="parent-inputt width">
+                     <!-- select - option -->
+          <div class="che width">
+            <label dir="ltr" for="oo">الدولة</label>
+             <select name="countries" id="oo" class="input" >
+              <option value="volvo">اختر دولتك من هنا</option>
+              <option value="مصر">مصر</option>
+              <option value="الاردن">الاردن</option>
+              <option value="السعودية">السعودية</option>
+              <option value="المغرب">المغرب</option>
+              <option value="الامارات">الامارات</option>
+              <option value="اليمن">اليمن</option>
+              <option value="فلسطين">فلسطين</option>
+              <option value="سوريا">سوريا</option>
+              <option value="الكويت">الكويت</option>
+              <option value="البحرين">البحرين</option>
+              <option value="تونس">تونس</option>
+              <option value="السودان">السودان</option>
+              <option value="الجزائر">الجزائر</option>
+              <option value="عمان">عمان</option>
+              <option value="لبنان">لبنان</option>
+              <option value="ليبيا">ليبيا</option>
+            </select>
+          </div>
+
+                    <!-- first name -->
+          <div class="first-name width" >
+            <label for="">الاسم الأول</label
+            ><input
+              required
+              class="input"
+              dir="rtl"
+              type="text"
+              placeholder="اكتب اسمك هنا"
+            />
+          </div>
+
+        </div>
+
+
+        <div class="parent-inputt width">
+                      <!-- phone bumber -->
+          <div class="parent-input number width positionn">
+            <label for="">رقم الهاتف</label
+            ><input
+              required
+              class="input"
+              dir="rtl"
+              type="number"
+              placeholder=""
+            />
+            <p>+20</p>
+          </div>
+
+                    <!-- Email -->
+          <div class="parent-input width">
+            <label for="">البريد الالكتروني</label
+            ><input
+              required
+              class="input"
+              dir="rtl"
+              type="email"
+              placeholder="اكتب بريدك هنا"
+            />
+          </div>
+        </div>
+
+        <div class="parent-inputt">
+                   <!-- confirm password -->
+          <div class="parent-input width parent-far">
+            <i id="iconn" class="far fa-eye"></i
+            ><label for="">تأكيد كلمة المرور</label
+            ><input
+              required
+              class="input"
+              id="passwordd"
+              dir="rtl"
+              type="password"
+            />
+
+          </div>
+                   <!-- password -->
+          <div class="parent-input width parent-far">
+            <i id="icon" class="far fa-eye"></i><label for="">كلمة المرور</label
+            ><input
+              required
+              class="input"
+              id="password"
+              dir="rtl"
+              type="password"
+            />
+          </div>
+        </div>
+
+                  <!-- your Facebook acoount link -->
+        <div class="parent-input type">
+          <label for="">رابط حسابك على فيسبوك</label
+          ><input
+            required
+            class="input"
+            dir="rtl"
+            type="text"
+            placeholder="ضع الرابط هنا"
+          />
+        </div>
+
+        <button class="aa" type="submit">إنشاء حساب</button>
+        <p class="aaa">
+          هل لديك حساب بالفعل<a href="login.html"> اضفط هنا للدخول الى حسابك</a>
+        </p>
+      </form>
+
+    </div>
+  </body>
+</html>
